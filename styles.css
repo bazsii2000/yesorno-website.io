@@ -10,11 +10,13 @@ body {
     position: absolute;
     margin-left: 150px;
     transition: 0.5s;
+    bottom: 50px;
 }
 
 #yesButton {
     position: absolute;
     margin-right: 150px;
+    bottom: 50px;
 }
 
 .header_text {
@@ -34,6 +36,7 @@ body {
     align-items: center;
     margin-top: 20px;
     margin-left: 20px;
+    gap: 100px;
 }
 
 .btn {
@@ -73,6 +76,20 @@ body {
         padding: 10px 18px;
         font-size: 12px;
     }
+
+    #noButton {
+        bottom: 30px;
+        margin-left: 0;
+    }
+
+    #yesButton {
+        bottom: 30px;
+        margin-right: 0;
+    }
+
+    .buttons {
+        gap: 50px;
+    }
 }
 
 @media only screen and (max-width: 414px) and (max-height: 736px) {
@@ -91,5 +108,19 @@ body {
     .btn {
         padding: 15px 25px;
         font-size: 14px;
+    }
+
+    #noButton {
+        bottom: 40px;
+        margin-left: 0;
+    }
+
+    #yesButton {
+        bottom: 40px;
+        margin-right: 0;
+    }
+
+    .buttons {
+        gap: 70px;
     }
 }
